@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=MCU_PC8 Pin=K9-1
+Removed Pin From Net: NetName=MCU_PC9 Pin=K9-2
+Removed Pin From Net: NetName=MCU_PC10 Pin=K9-3
+Removed Pin From Net: NetName=MCU_PC11 Pin=K9-4
+Removed Pin From Net: NetName=MCU_PC12 Pin=K9-5
+Removed Pin From Net: NetName=MCU_SWITCH Pin=K9-6
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=K9
+Added Component: Designator=K4(HEADER-1X7)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_PC8 Pin=K4-1
+Added Pin To Net: NetName=MCU_PC9 Pin=K4-2
+Added Pin To Net: NetName=MCU_PC10 Pin=K4-3
+Added Pin To Net: NetName=MCU_PC11 Pin=K4-4
+Added Pin To Net: NetName=MCU_PC12 Pin=K4-5
+Added Pin To Net: NetName=MCU_SWITCH Pin=K4-6
+Added Pin To Net: NetName=MCU_PD2 Pin=K4-7
+Added Pin To Net: NetName=MCU_PD2 Pin=U3-54
+Added Net: Name=MCU_PD2
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K4 PORTC_PART2
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U3 STM32L476RGT6

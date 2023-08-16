@@ -1,0 +1,128 @@
+Change Component Designator: OldDesignator=DEBUG NewDesignator=K2
+Change Component Designator: OldDesignator=POWER NewDesignator=K3
+Added Component: Designator=K4(HEADER-1X8)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=K5(HEADER-1X8)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=K6(HEADER-1X8)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=K7(HEADER-1X8)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=K8(HEADER-1X8)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_SWCLK Pin=K6-2
+Added Pin To Net: NetName=MCU_SWDIO Pin=K6-3
+Added Pin To Net: NetName=IMU_SDA Pin=K7-1
+Added Pin To Net: NetName=IMU_SCL Pin=K7-2
+Added Pin To Net: NetName=IMU_INT Pin=K7-3
+Added Pin To Net: NetName=MCU_SWO Pin=K7-5
+Added Pin To Net: NetName=MCU_LED_K Pin=K8-3
+Added Pin To Net: NetName=NetK4_1 Pin=K4-1
+Added Pin To Net: NetName=NetK4_1 Pin=U3-23
+Added Net: Name=NetK4_1
+Added Pin To Net: NetName=NetK4_2 Pin=K4-2
+Added Pin To Net: NetName=NetK4_2 Pin=U3-22
+Added Net: Name=NetK4_2
+Added Pin To Net: NetName=NetK4_3 Pin=K4-3
+Added Pin To Net: NetName=NetK4_3 Pin=U3-21
+Added Net: Name=NetK4_3
+Added Pin To Net: NetName=NetK4_4 Pin=K4-4
+Added Pin To Net: NetName=NetK4_4 Pin=U3-20
+Added Net: Name=NetK4_4
+Added Pin To Net: NetName=NetK4_5 Pin=K4-5
+Added Pin To Net: NetName=NetK4_5 Pin=U3-17
+Added Net: Name=NetK4_5
+Added Pin To Net: NetName=NetK4_6 Pin=K4-6
+Added Pin To Net: NetName=NetK4_6 Pin=U3-16
+Added Net: Name=NetK4_6
+Added Pin To Net: NetName=NetK4_7 Pin=K4-7
+Added Pin To Net: NetName=NetK4_7 Pin=U3-15
+Added Net: Name=NetK4_7
+Added Pin To Net: NetName=NetK4_8 Pin=K4-8
+Added Pin To Net: NetName=NetK4_8 Pin=U3-14
+Added Net: Name=NetK4_8
+Added Pin To Net: NetName=NetK5_1 Pin=K5-1
+Added Pin To Net: NetName=NetK5_1 Pin=U3-8
+Added Net: Name=NetK5_1
+Added Pin To Net: NetName=NetK5_2 Pin=K5-2
+Added Pin To Net: NetName=NetK5_2 Pin=U3-9
+Added Net: Name=NetK5_2
+Added Pin To Net: NetName=NetK5_3 Pin=K5-3
+Added Pin To Net: NetName=NetK5_3 Pin=U3-10
+Added Net: Name=NetK5_3
+Added Pin To Net: NetName=NetK5_4 Pin=K5-4
+Added Pin To Net: NetName=NetK5_4 Pin=U3-11
+Added Net: Name=NetK5_4
+Added Pin To Net: NetName=NetK5_5 Pin=K5-5
+Added Pin To Net: NetName=NetK5_5 Pin=U3-24
+Added Net: Name=NetK5_5
+Added Pin To Net: NetName=NetK5_6 Pin=K5-6
+Added Pin To Net: NetName=NetK5_6 Pin=U3-25
+Added Net: Name=NetK5_6
+Added Pin To Net: NetName=NetK5_7 Pin=K5-7
+Added Pin To Net: NetName=NetK5_7 Pin=U3-37
+Added Net: Name=NetK5_7
+Added Pin To Net: NetName=NetK5_8 Pin=K5-8
+Added Pin To Net: NetName=NetK5_8 Pin=U3-38
+Added Net: Name=NetK5_8
+Added Pin To Net: NetName=NetK6_1 Pin=K6-1
+Added Pin To Net: NetName=NetK6_1 Pin=U3-50
+Added Net: Name=NetK6_1
+Added Pin To Net: NetName=NetK6_4 Pin=K6-4
+Added Pin To Net: NetName=NetK6_4 Pin=U3-45
+Added Net: Name=NetK6_4
+Added Pin To Net: NetName=NetK6_5 Pin=K6-5
+Added Pin To Net: NetName=NetK6_5 Pin=U3-44
+Added Net: Name=NetK6_5
+Added Pin To Net: NetName=NetK6_6 Pin=K6-6
+Added Pin To Net: NetName=NetK6_6 Pin=U3-43
+Added Net: Name=NetK6_6
+Added Pin To Net: NetName=NetK6_7 Pin=K6-7
+Added Pin To Net: NetName=NetK6_7 Pin=U3-42
+Added Net: Name=NetK6_7
+Added Pin To Net: NetName=NetK6_8 Pin=K6-8
+Added Pin To Net: NetName=NetK6_8 Pin=U3-41
+Added Net: Name=NetK6_8
+Added Pin To Net: NetName=PB0 Pin=K7-8
+Added Pin To Net: NetName=PB0 Pin=U3-26
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB1 Pin=K7-7
+Added Pin To Net: NetName=PB1 Pin=U3-27
+Added Net: Name=PB1
+Added Pin To Net: NetName=PB2 Pin=K7-6
+Added Pin To Net: NetName=PB2 Pin=U3-28
+Added Net: Name=PB2
+Added Pin To Net: NetName=PB4 Pin=K7-4
+Added Pin To Net: NetName=PB4 Pin=U3-56
+Added Net: Name=PB4
+Added Pin To Net: NetName=PB8 Pin=K8-8
+Added Pin To Net: NetName=PB8 Pin=U3-61
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB9 Pin=K8-7
+Added Pin To Net: NetName=PB9 Pin=U3-62
+Added Net: Name=PB9
+Added Pin To Net: NetName=PB10 Pin=K8-6
+Added Pin To Net: NetName=PB10 Pin=U3-29
+Added Net: Name=PB10
+Added Pin To Net: NetName=PB11 Pin=K8-5
+Added Pin To Net: NetName=PB11 Pin=U3-30
+Added Net: Name=PB11
+Added Pin To Net: NetName=PB12 Pin=K8-4
+Added Pin To Net: NetName=PB12 Pin=U3-33
+Added Net: Name=PB12
+Added Pin To Net: NetName=PB14 Pin=K8-2
+Added Pin To Net: NetName=PB14 Pin=U3-35
+Added Net: Name=PB14
+Added Pin To Net: NetName=PB15 Pin=K8-1
+Added Pin To Net: NetName=PB15 Pin=U3-36
+Added Net: Name=PB15
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K4 PORTA_PART1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K5 PORTC_PART1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K6 PORTA_PART2
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K7 PORTB_PART1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K8 PORTB_PART1

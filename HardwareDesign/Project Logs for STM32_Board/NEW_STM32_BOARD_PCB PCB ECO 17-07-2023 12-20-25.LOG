@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=K2-2
+Removed Pin From Net: NetName=MCU_SWCLK Pin=K2-3
+Removed Pin From Net: NetName=MCU_NRST Pin=K2-4
+Removed Pin From Net: NetName=MCU_SWDIO Pin=K2-5
+Removed Pin From Net: NetName=3.3V Pin=K2-6
+Change Component Footprint: Designator=K2 Old Footprint=HEADER-1X6 New Footprint=HEADER-2X3
+Change Component Comment : Designator=K2 Old Comment=HEADER-1X6 New Comment=SWD Connector
+Change Component Designator: OldDesignator=DC IN NewDesignator=J3
+Change Component Designator: OldDesignator=USB NewDesignator=J1
+Change component parameters: Designator = "K2" ("K2"); Footprint = "HEADER-1X6"; UniqueID = "\UBURKJHU" ("\UBURKJHU")
+Added Pin To Net: NetName=3.3V Pin=K2-2
+Added Pin To Net: NetName=MCU_SWDIO Pin=K2-3
+Added Pin To Net: NetName=MCU_SWCLK Pin=K2-4
+Added Pin To Net: NetName=MCU_NRST Pin=K2-5
+Added Pin To Net: NetName=GND Pin=K2-6

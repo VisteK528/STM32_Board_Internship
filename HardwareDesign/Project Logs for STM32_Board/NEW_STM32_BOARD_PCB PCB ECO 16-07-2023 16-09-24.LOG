@@ -1,0 +1,12 @@
+Added Component: Designator=K2(HEADER-1X6)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_SWO Pin=K2-1
+Added Pin To Net: NetName=GND Pin=K2-2
+Added Pin To Net: NetName=MCU_SWCLK Pin=K2-3
+Added Pin To Net: NetName=MCU_NRST Pin=K2-4
+Added Pin To Net: NetName=MCU_SWDIO Pin=K2-5
+Added Pin To Net: NetName=3.3V Pin=K2-6
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K2 HEADER-1X6
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R5 2.2k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R6 2.2k

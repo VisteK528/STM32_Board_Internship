@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=MCU_QUADSPI_CLK Pin=K6-3
+Removed Pin From Net: NetName=MCU_QUADSPI_CLK Pin=U3-21
+Added Pin To Net: NetName=MCU_PA5 Pin=K6-3
+Added Pin To Net: NetName=MCU_PA5 Pin=U3-21
+Added Net: Name=MCU_PA5

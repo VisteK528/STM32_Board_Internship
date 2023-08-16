@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=R12 Old Footprint=0603 New Footprint=0805
+Change Component Footprint: Designator=R13 Old Footprint=0603 New Footprint=0805
+Change Component Footprint: Designator=R14 Old Footprint=0603 New Footprint=0805
+Added Component: Designator=D5(FP-SOT-666-MFG)
+Add Pin To Net: Unknown Pin: Pin D5-1
+Add Pin To Net: Unknown Pin: Pin D5-2
+Add Pin To Net: Unknown Pin: Pin D5-3
+Add Pin To Net: Unknown Pin: Pin D5-4
+Add Pin To Net: Unknown Pin: Pin D5-5
+Add Pin To Net: Unknown Pin: Pin D5-6
+Add Class Member: Failed to add class member : Component D5 USBLC6-2P6

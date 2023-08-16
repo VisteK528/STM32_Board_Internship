@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VBUS Pin=J1-B4-A9
+Added Pin To Net: NetName=VBUS_IN Pin=J1-B4-A9

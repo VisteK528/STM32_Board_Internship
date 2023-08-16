@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=3.3V Pin=J2-1
+Removed Pin From Net: NetName=MCU_SWDIO Pin=J2-2
+Removed Pin From Net: NetName=MCU_NRST Pin=J2-3
+Removed Pin From Net: NetName=MCU_SWCLK Pin=J2-4
+Removed Pin From Net: NetName=GND Pin=J2-5
+Removed Pin From Net: NetName=MCU_SWO Pin=J2-6
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=J2

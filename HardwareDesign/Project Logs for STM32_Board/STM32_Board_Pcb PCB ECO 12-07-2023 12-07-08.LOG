@@ -1,0 +1,9 @@
+Change Component Comment : Designator=C7 Old Comment=Kondensator New Comment=2.2u
+Change Component Comment : Designator=C5 Old Comment=Kondensator New Comment=22p
+Change Component Comment : Designator=C6 Old Comment=Kondensator New Comment=22p
+Change Component Comment : Designator=C8 Old Comment=Kondensator New Comment=22p
+Change Component Comment : Designator=C10 Old Comment=Kondensator New Comment=22p
+Change Component Comment : Designator=C9 Old Comment=Kondensator New Comment=100n
+Change Component Comment : Designator=C11 Old Comment=Kondensator New Comment=100n
+Change Component Comment : Designator=C12 Old Comment=Kondensator New Comment=100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U1 MPU-6050

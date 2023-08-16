@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=MCU_OSC_OUT Pin=R10-1
+Removed Pin From Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=MCU_OSC_OUT Pin=R10-2
+Added Pin To Net: NetName=HSE_OSC_OUT Pin=C18-1
+Added Pin To Net: NetName=HSE_OSC_OUT Pin=R10-1
+Added Pin To Net: NetName=HSE_OSC_OUT Pin=Y2-1
+Added Net: Name=HSE_OSC_OUT
+Added Pin To Net: NetName=MCU_OSC_IN Pin=C11-1
+Added Pin To Net: NetName=MCU_OSC_IN Pin=U3-5
+Added Pin To Net: NetName=MCU_OSC_IN Pin=Y2-3
+Added Net: Name=MCU_OSC_IN
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C13 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C14 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C18 32p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R8 10k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R10 0R

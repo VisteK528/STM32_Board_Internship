@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MCU_SWO Pin=K2-1
+Removed Pin From Net: NetName=+3V3 Pin=K2-2
+Removed Pin From Net: NetName=MCU_NRST Pin=K2-5
+Removed Pin From Net: NetName=GND Pin=K2-6
+Added Pin To Net: NetName=MCU_NRST Pin=K2-1
+Added Pin To Net: NetName=GND Pin=K2-2
+Added Pin To Net: NetName=MCU_SWO Pin=K2-5
+Added Pin To Net: NetName=+3V3 Pin=K2-6

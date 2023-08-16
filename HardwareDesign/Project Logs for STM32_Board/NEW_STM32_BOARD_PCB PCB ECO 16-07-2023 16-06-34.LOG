@@ -1,0 +1,43 @@
+Change Component Designator: OldDesignator=R5 NewDesignator=R7
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Added Component: Designator=J2(FP-TC2030-CTX-NL-MFG)
+Added Component: Designator=R5(0805)
+Added Component: Designator=R6(0805)
+Added Pin To Net: NetName=3.3V Pin=J2-1
+Added Pin To Net: NetName=MCU_NRST Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-5
+Added Pin To Net: NetName=IMU_SCL Pin=R5-1
+Added Pin To Net: NetName=+3V3 Pin=R5-2
+Added Pin To Net: NetName=IMU_SDA Pin=R6-1
+Added Pin To Net: NetName=+3V3 Pin=R6-2
+Added Pin To Net: NetName=MCU_SWCLK Pin=J2-4
+Added Pin To Net: NetName=MCU_SWCLK Pin=U3-49
+Added Net: Name=MCU_SWCLK
+Added Pin To Net: NetName=MCU_SWDIO Pin=J2-2
+Added Pin To Net: NetName=MCU_SWDIO Pin=U3-46
+Added Net: Name=MCU_SWDIO
+Added Pin To Net: NetName=MCU_SWO Pin=J2-6
+Added Pin To Net: NetName=MCU_SWO Pin=U3-55
+Added Net: Name=MCU_SWO
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C1 2.2u
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C3 22u
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C5 0.1u
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C7 10n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C9 22p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C11 22p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C13 22p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C15 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component D1 LED SMD 0805 Green
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component D2 LED SMD 0805 Green
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component J2 TC2030-CTX-NL
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R2 5.1k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R4 0R
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R6 2.2k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R7 0R
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R8 10k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R9 560
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R10 10k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U2 MPU-6050
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U3 STM32L476RGT6

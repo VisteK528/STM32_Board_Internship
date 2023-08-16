@@ -1,0 +1,97 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=C23
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=C26
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=D2
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=K12
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=R13
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=R14
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=U4
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=XTAL1
+Change Component Comment : Designator=C11 Old Comment=22p New Comment=32p
+Change Component Designator: OldDesignator=C14 NewDesignator=C13
+Change Component Designator: OldDesignator=C15 NewDesignator=C14
+Change Component Designator: OldDesignator=C16 NewDesignator=C15
+Change Component Designator: OldDesignator=C17 NewDesignator=C16
+Change Component Designator: OldDesignator=C18 NewDesignator=C17
+Change Component Designator: OldDesignator=R7 NewDesignator=R10
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Added Component: Designator=C18(0805)
+Added Component: Designator=Y2(FP-ABM8-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "CSMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "50R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "25MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Stability"; Value = "50ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Tolerance"; Value = "20ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.031inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Load Capacitance"; Value = "18pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-20°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency"; Value = "25 MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ABM8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series Resistance"; Value = "50R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.098inch"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=GND Pin=Y2-2
+Added Pin To Net: NetName=GND Pin=Y2-4
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=Y2-3
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=R10-2
+Added Pin To Net: NetName=NetC18_1 Pin=Y2-1
+Added Net: Name=NetC18_1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C1 22p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C2 22p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C4 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C5 0.1u
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C6 2.2n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C7 10n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C8 22p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C9 22p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C10 2.2u
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C11 32p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C12 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C13 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C14 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C18 32p
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C19 100n
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component C20 2.2u
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component C21 2.2u
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component C22 22u
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component C24 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component D1 LED SMD 0805 Green
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K1 USART2
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K3 I2C1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K4 CAN
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K5 IMU_EXTERNAL_SENSOR
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K6 PORTA_PART1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K7 PORTC_PART1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K8 PORTA_PART2
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R1 120R
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R2 10k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R3 0R
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R4 2.2k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R6 0R
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R10 0R
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component R12 560
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component SW1 B3F-1000
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U1 TCAN332GDR
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U3 STM32L476RGT6
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component Y2 ABM8-25.000MHZ-B2-T

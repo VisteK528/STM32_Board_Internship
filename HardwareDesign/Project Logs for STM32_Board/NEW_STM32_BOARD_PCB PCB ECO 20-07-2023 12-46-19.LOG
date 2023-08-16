@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+3V3 Pin=D2-2
+Removed Pin From Net: NetName=GND Pin=R12-2
+Change Component Comment : Designator=R12 Old Comment=560 New Comment=560R
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=+3V3 Pin=R12-1
+Added Pin To Net: NetName=LED_Power_A Pin=D2-2
+Added Pin To Net: NetName=LED_Power_A Pin=R12-2
+Added Net: Name=LED_Power_A

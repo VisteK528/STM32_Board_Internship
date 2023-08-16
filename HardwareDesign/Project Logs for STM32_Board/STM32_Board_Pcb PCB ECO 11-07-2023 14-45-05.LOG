@@ -1,0 +1,67 @@
+Change Component Designator: OldDesignator=C1 NewDesignator=C5
+Change Component Designator: OldDesignator=C2 NewDesignator=C6
+Change Component Designator: OldDesignator=C3 NewDesignator=C7
+Change Component Designator: OldDesignator=C4 NewDesignator=C8
+Change Component Designator: OldDesignator=C5 NewDesignator=C9
+Change Component Designator: OldDesignator=C6 NewDesignator=C10
+Change Component Designator: OldDesignator=C7 NewDesignator=C11
+Change Component Designator: OldDesignator=C8 NewDesignator=C12
+Change component parameters: Designator = "C1" ("C1"); Footprint = "0805"; UniqueID = "\ETXZQFYB" ("\ETXZQFYB")
+Change component parameters (AddParameter): Name = "Value"; Value = "22p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "0805"; UniqueID = "\PEQJLAGV" ("\PEQJLAGV")
+Change component parameters (AddParameter): Name = "Value"; Value = "22p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "0805"; UniqueID = "\PYCFXYOL" ("\PYCFXYOL")
+Change component parameters (AddParameter): Name = "Value"; Value = "2.2u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "0805"; UniqueID = "\EIAIYYHP" ("\EIAIYYHP")
+Change component parameters (AddParameter): Name = "Value"; Value = "22p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "0805"; UniqueID = "\VTJJDMAQ" ("\VTJJDMAQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "0805"; UniqueID = "\JJPSYGIB" ("\JJPSYGIB")
+Change component parameters (AddParameter): Name = "Value"; Value = "22p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7" ("C7"); Footprint = "0805"; UniqueID = "\BMDTQFMQ" ("\BMDTQFMQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "0805"; UniqueID = "\SXLCXOIX" ("\SXLCXOIX")
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C1(0805)
+Added Component: Designator=C2(0805)
+Added Component: Designator=C3(0805)
+Added Component: Designator=C4(0805)
+Added Component: Designator=K1(HEADER-1X2)
+Add component (AddParameter): Name = "REEL"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=+3V3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=+3V3 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Add Pin To Net: Unknown Pin: Pin IMU1-1
+Add Pin To Net: Unknown Pin: Pin IMU1-8
+Add Pin To Net: Unknown Pin: Pin IMU1-9
+Add Pin To Net: Unknown Pin: Pin IMU1-11
+Add Pin To Net: Unknown Pin: Pin IMU1-13
+Add Pin To Net: Unknown Pin: Pin IMU1-18
+Add Pin To Net: Unknown Pin: Pin IMU1-25
+Add Pin To Net: Unknown Pin: Pin XTAL1-3
+Added Pin To Net: NetName=IMU_AUX_CL Pin=K1-1
+Added Net: Name=IMU_AUX_CL
+Added Pin To Net: NetName=IMU_AUX_DA Pin=K1-2
+Added Net: Name=IMU_AUX_DA
+Added Pin To Net: NetName=IMU_CPOUT Pin=C3-1
+Added Net: Name=IMU_CPOUT
+Added Pin To Net: NetName=IMU_INT Pin=U1-8
+Added Net: Name=IMU_INT
+Added Pin To Net: NetName=IMU_REGOUT Pin=C1-1
+Added Net: Name=IMU_REGOUT
+Added Pin To Net: NetName=IMU_SCL Pin=U1-9
+Added Net: Name=IMU_SCL
+Added Pin To Net: NetName=IMU_SDA Pin=U1-10
+Added Net: Name=IMU_SDA
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C9 Kondensator
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C10 Kondensator
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C11 Kondensator
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C12 Kondensator
+Add Class Member: Failed to add class member : Component IMU1 MPU-6050
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K1 IMU_EXTERNAL_SENSOR
+Add Class Member: Failed to add class member : Component USB1 USB-C Molex

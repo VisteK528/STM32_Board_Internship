@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=MCU_NRST Pin=K12-1
+Removed Pin From Net: NetName=GND Pin=K12-2
+Removed Pin From Net: NetName=GND Pin=K12-3
+Removed Pin From Net: NetName=GND Pin=K12-4
+Removed Pin From Net: NetName=+3V3 Pin=K12-5
+Removed Pin From Net: NetName=+3V3 Pin=K12-6
+Removed Pin From Net: NetName=+5V Pin=K12-7
+Removed Pin From Net: NetName=+5V Pin=K12-8
+Removed Pin From Net: NetName=VIN Pin=K12-9
+Removed Member From Class: ClassName=PowerSupplyAndUSB Member=K12
+Added Component: Designator=K9(HEADER-1X8)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=K9-1
+Added Pin To Net: NetName=GND Pin=K9-2
+Added Pin To Net: NetName=GND Pin=K9-3
+Added Pin To Net: NetName=+3V3 Pin=K9-4
+Added Pin To Net: NetName=+3V3 Pin=K9-5
+Added Pin To Net: NetName=+5V Pin=K9-6
+Added Pin To Net: NetName=+5V Pin=K9-7
+Added Pin To Net: NetName=VIN Pin=K9-8
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component K9 POWER

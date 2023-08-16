@@ -1,0 +1,55 @@
+Added Component: Designator=K9(HEADER-1X6)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetK4_1 New Net Name=MCU_PA7
+Change Net Name : Old Net Name=NetK4_2 New Net Name=MCU_PA6
+Change Net Name : Old Net Name=NetK4_3 New Net Name=MCU_PA5
+Change Net Name : Old Net Name=NetK4_4 New Net Name=MCU_PA4
+Change Net Name : Old Net Name=NetK4_5 New Net Name=MCU_PA3
+Change Net Name : Old Net Name=NetK4_6 New Net Name=MCU_PA2
+Change Net Name : Old Net Name=NetK4_7 New Net Name=MCU_PA1
+Change Net Name : Old Net Name=NetK4_8 New Net Name=MCU_PA0
+Change Net Name : Old Net Name=NetK5_1 New Net Name=MCU_PC0
+Change Net Name : Old Net Name=NetK5_2 New Net Name=MCU_PC1
+Change Net Name : Old Net Name=NetK5_3 New Net Name=MCU_PC2
+Change Net Name : Old Net Name=NetK5_4 New Net Name=MCU_PC3
+Change Net Name : Old Net Name=NetK5_5 New Net Name=MCU_PC4
+Change Net Name : Old Net Name=NetK5_6 New Net Name=MCU_PC5
+Change Net Name : Old Net Name=NetK5_7 New Net Name=MCU_PC6
+Change Net Name : Old Net Name=NetK5_8 New Net Name=MCU_PC7
+Change Net Name : Old Net Name=NetK6_1 New Net Name=MCU_PA15
+Change Net Name : Old Net Name=NetK6_4 New Net Name=MCU_PA12
+Change Net Name : Old Net Name=NetK6_5 New Net Name=MCU_PA11
+Change Net Name : Old Net Name=NetK6_6 New Net Name=MCU_PA10
+Change Net Name : Old Net Name=NetK6_7 New Net Name=MCU_PA9
+Change Net Name : Old Net Name=NetK6_8 New Net Name=MCU_PA8
+Change Net Name : Old Net Name=PB0 New Net Name=MCU_PB0
+Change Net Name : Old Net Name=PB1 New Net Name=MCU_PB1
+Change Net Name : Old Net Name=PB2 New Net Name=MCU_PB2
+Change Net Name : Old Net Name=PB4 New Net Name=MCU_PB4
+Change Net Name : Old Net Name=PB8 New Net Name=MCU_PB8
+Change Net Name : Old Net Name=PB9 New Net Name=MCU_PB9
+Change Net Name : Old Net Name=PB10 New Net Name=MCU_PB10
+Change Net Name : Old Net Name=PB11 New Net Name=MCU_PB11
+Change Net Name : Old Net Name=PB12 New Net Name=MCU_PB12
+Change Net Name : Old Net Name=PB14 New Net Name=MCU_PB14
+Change Net Name : Old Net Name=PB15 New Net Name=MCU_PB15
+Added Pin To Net: NetName=MCU_PC8 Pin=K9-1
+Added Pin To Net: NetName=MCU_PC8 Pin=U3-39
+Added Net: Name=MCU_PC8
+Added Pin To Net: NetName=MCU_PC9 Pin=K9-2
+Added Pin To Net: NetName=MCU_PC9 Pin=U3-40
+Added Net: Name=MCU_PC9
+Added Pin To Net: NetName=MCU_PC10 Pin=K9-3
+Added Pin To Net: NetName=MCU_PC10 Pin=U3-51
+Added Net: Name=MCU_PC10
+Added Pin To Net: NetName=MCU_PC11 Pin=K9-4
+Added Pin To Net: NetName=MCU_PC11 Pin=U3-52
+Added Net: Name=MCU_PC11
+Added Pin To Net: NetName=MCU_PC12 Pin=K9-5
+Added Pin To Net: NetName=MCU_PC12 Pin=U3-53
+Added Net: Name=MCU_PC12
+Added Pin To Net: NetName=MCU_PC13 Pin=K9-6
+Added Pin To Net: NetName=MCU_PC13 Pin=U3-2
+Added Net: Name=MCU_PC13
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K9 HEADER-1X6

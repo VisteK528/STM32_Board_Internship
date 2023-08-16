@@ -1,0 +1,15 @@
+Added Component: Designator=K3(HEADER-1X9)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_NRST Pin=C15-2
+Added Pin To Net: NetName=MCU_NRST Pin=K3-1
+Added Pin To Net: NetName=GND Pin=K3-2
+Added Pin To Net: NetName=GND Pin=K3-3
+Added Pin To Net: NetName=GND Pin=K3-4
+Added Pin To Net: NetName=3.3V Pin=K3-5
+Added Pin To Net: NetName=3.3V Pin=K3-6
+Added Pin To Net: NetName=+5V Pin=K3-7
+Added Pin To Net: NetName=+5V Pin=K3-8
+Added Pin To Net: NetName=VIN Pin=K3-9
+Added Pin To Net: NetName=MCU_NRST Pin=U3-7
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component K3 POWER

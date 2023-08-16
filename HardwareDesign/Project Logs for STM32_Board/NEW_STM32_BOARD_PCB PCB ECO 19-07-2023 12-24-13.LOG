@@ -1,0 +1,183 @@
+Removed Pin From Net: NetName=MCU_PA15 Pin=K5-1
+Removed Pin From Net: NetName=MCU_SWCLK Pin=K5-2
+Removed Pin From Net: NetName=MCU_SWDIO Pin=K5-3
+Removed Pin From Net: NetName=USB_D_P Pin=K5-4
+Removed Pin From Net: NetName=MCU_PA10 Pin=K5-6
+Removed Pin From Net: NetName=MCU_PA9 Pin=K5-7
+Removed Pin From Net: NetName=MCU_PA8 Pin=K5-8
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=C21
+Removed Member From Class: ClassName=STM32_Board_with_IMU Member=D2
+Removed Member From Class: ClassName=PowerSupplyAndUSB Member=K6
+Removed Member From Class: ClassName=PowerSupplyAndUSB Member=R1
+Removed Member From Class: ClassName=PowerSupplyAndUSB Member=R6
+Change Component Designator: OldDesignator=C1 NewDesignator=C3
+Change Component Designator: OldDesignator=C2 NewDesignator=C4
+Change Component Designator: OldDesignator=C3 NewDesignator=C5
+Change Component Designator: OldDesignator=C4 NewDesignator=C6
+Change Component Designator: OldDesignator=C5 NewDesignator=C7
+Change Component Designator: OldDesignator=C6 NewDesignator=C8
+Change Component Designator: OldDesignator=C7 NewDesignator=C9
+Change Component Designator: OldDesignator=C8 NewDesignator=C10
+Change Component Designator: OldDesignator=C9 NewDesignator=C11
+Change Component Designator: OldDesignator=C10 NewDesignator=C12
+Change Component Designator: OldDesignator=C11 NewDesignator=C13
+Change Component Designator: OldDesignator=C12 NewDesignator=C14
+Change Component Designator: OldDesignator=C13 NewDesignator=C15
+Change Component Designator: OldDesignator=C14 NewDesignator=C16
+Change Component Designator: OldDesignator=C15 NewDesignator=C17
+Change Component Designator: OldDesignator=C16 NewDesignator=C18
+Change Component Designator: OldDesignator=C17 NewDesignator=C19
+Change Component Designator: OldDesignator=C18 NewDesignator=C20
+Change Component Designator: OldDesignator=C19 NewDesignator=C21
+Change Component Designator: OldDesignator=C20 NewDesignator=C22
+Change Component Designator: OldDesignator=C21 NewDesignator=C23
+Change Component Designator: OldDesignator=C22 NewDesignator=C24
+Change Component Designator: OldDesignator=C23 NewDesignator=C25
+Change Component Designator: OldDesignator=C24 NewDesignator=C26
+Change Component Designator: OldDesignator=K1 NewDesignator=K2
+Change Component Designator: OldDesignator=K2 NewDesignator=K5
+Change Component Designator: OldDesignator=K3 NewDesignator=K6
+Change Component Designator: OldDesignator=K4 NewDesignator=K7
+Change Component Designator: OldDesignator=K6 NewDesignator=K9
+Change Component Designator: OldDesignator=K7 NewDesignator=K10
+Change Component Designator: OldDesignator=K8 NewDesignator=K11
+Change Component Designator: OldDesignator=K9 NewDesignator=K12
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=R3 NewDesignator=R5
+Change Component Designator: OldDesignator=R4 NewDesignator=R6
+Change Component Designator: OldDesignator=R5 NewDesignator=R7
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R11
+Change Component Designator: OldDesignator=R10 NewDesignator=R12
+Change Component Designator: OldDesignator=R11 NewDesignator=R13
+Change Component Designator: OldDesignator=R12 NewDesignator=R14
+Change Component Designator: OldDesignator=SW1 NewDesignator=SW2
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U4
+Change Component Designator: OldDesignator=U4 NewDesignator=U5
+Added Component: Designator=C1(0805)
+Added Component: Designator=C2(0805)
+Added Component: Designator=K1(HEADER-1X4)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=K3(HEADER-1X4)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=K4(HEADER-1X4)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=K8(HEADER-1X4)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "S1011E-36-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0805)
+Added Component: Designator=R2(0805)
+Added Component: Designator=SW1(OMRON-B3F-1000-4_V)
+Add component (AddParameter): Name = "Capacitance"; Value = "-45 f"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.omron.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.omron.com/ecb/products/pdf/en-b3f.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1.5 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jan-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "14.99 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "18.34 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1080"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "4-Pin Through Hole Device, Body 6 x 6 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "B3F-1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Shielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "150 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "25.4 mm"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOIC-8_x1)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=+3V3 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=+3V3 Pin=C2-2
+Added Pin To Net: NetName=+3V3 Pin=K1-1
+Added Pin To Net: NetName=GND Pin=K1-2
+Added Pin To Net: NetName=+3V3 Pin=K3-1
+Added Pin To Net: NetName=GND Pin=K3-2
+Added Pin To Net: NetName=IMU_SDA Pin=K3-3
+Added Pin To Net: NetName=IMU_SCL Pin=K3-4
+Added Pin To Net: NetName=GND Pin=K4-1
+Added Pin To Net: NetName=+3V3 Pin=K4-4
+Added Pin To Net: NetName=MCU_PA15 Pin=K8-1
+Added Pin To Net: NetName=MCU_PA10 Pin=K8-2
+Added Pin To Net: NetName=MCU_PA9 Pin=K8-3
+Added Pin To Net: NetName=MCU_PA8 Pin=K8-4
+Added Pin To Net: NetName=+3V3 Pin=R2-1
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=SW1-4
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=+3V3 Pin=U1-3
+Added Pin To Net: NetName=USB_D_N Pin=U3-44
+Added Pin To Net: NetName=CAN_N Pin=K4-3
+Added Pin To Net: NetName=CAN_N Pin=R1-1
+Added Pin To Net: NetName=CAN_N Pin=U1-7
+Added Net: Name=CAN_N
+Added Pin To Net: NetName=CAN_P Pin=K4-2
+Added Pin To Net: NetName=CAN_P Pin=R1-2
+Added Pin To Net: NetName=CAN_P Pin=U1-6
+Added Net: Name=CAN_P
+Added Pin To Net: NetName=MCU_CAN1_RX Pin=K11-8
+Added Pin To Net: NetName=MCU_CAN1_RX Pin=U1-4
+Added Pin To Net: NetName=MCU_CAN1_RX Pin=U3-61
+Added Net: Name=MCU_CAN1_RX
+Added Pin To Net: NetName=MCU_CAN1_TX Pin=K11-7
+Added Pin To Net: NetName=MCU_CAN1_TX Pin=U1-1
+Added Pin To Net: NetName=MCU_CAN1_TX Pin=U3-62
+Added Net: Name=MCU_CAN1_TX
+Added Pin To Net: NetName=MCU_SWITCH Pin=K9-6
+Added Pin To Net: NetName=MCU_SWITCH Pin=R2-2
+Added Pin To Net: NetName=MCU_SWITCH Pin=SW1-1
+Added Pin To Net: NetName=MCU_SWITCH Pin=SW1-2
+Added Pin To Net: NetName=MCU_SWITCH Pin=U3-2
+Added Net: Name=MCU_SWITCH
+Added Pin To Net: NetName=MCU_USART2_RX Pin=K1-4
+Added Pin To Net: NetName=MCU_USART2_RX Pin=K6-5
+Added Pin To Net: NetName=MCU_USART2_RX Pin=U3-17
+Added Net: Name=MCU_USART2_RX
+Added Pin To Net: NetName=MCU_USART2_TX Pin=K1-3
+Added Pin To Net: NetName=MCU_USART2_TX Pin=K6-6
+Added Pin To Net: NetName=MCU_USART2_TX Pin=U3-16
+Added Net: Name=MCU_USART2_TX
+Added Differential Pair: Name=CAN
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C14 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C15 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C16 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C17 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C18 100n
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component C19 100n
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component C20 2.2u
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component C26 C+47U-6V3
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component D1 LED SMD 0805 Green
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K2 SWD Connector
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K3 I2C1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K5 IMU_EXTERNAL_SENSOR
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K9 HEADER-1X6
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K10 PORTB_PART1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component K11 PORTB_PART1
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component K12 POWER
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R4 2.2k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R9 10k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R10 560
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R11 10k
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component R13 5.1k
+Added Member To Class: ClassName=PowerSupplyAndUSB Member=Component R14 5.1k
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component SW2 B3F-1000
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U2 MPU-6050
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component U3 STM32L476RGT6

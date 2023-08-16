@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=IMU_SDA Pin=K7-1
+Removed Pin From Net: NetName=IMU_SCL Pin=K7-2
+Removed Pin From Net: NetName=IMU_SCL Pin=U3-58
+Removed Pin From Net: NetName=IMU_SDA Pin=U3-59
+Change Component Designator: OldDesignator=IMU AUX NewDesignator=K1
+Added Component: Designator=R11(0805)
+Added Component: Designator=R12(0805)
+Added Pin To Net: NetName=IMU_SCL Pin=R11-1
+Added Pin To Net: NetName=IMU_SDA Pin=R12-1
+Added Pin To Net: NetName=MCU_SCL_1 Pin=K7-2
+Added Pin To Net: NetName=MCU_SCL_1 Pin=R11-2
+Added Pin To Net: NetName=MCU_SCL_1 Pin=U3-58
+Added Net: Name=MCU_SCL_1
+Added Pin To Net: NetName=MCU_SDA_1 Pin=K7-1
+Added Pin To Net: NetName=MCU_SDA_1 Pin=R12-2
+Added Pin To Net: NetName=MCU_SDA_1 Pin=U3-59
+Added Net: Name=MCU_SDA_1
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R11 0R
+Added Member To Class: ClassName=STM32_Board_with_IMU Member=Component R12 0R
