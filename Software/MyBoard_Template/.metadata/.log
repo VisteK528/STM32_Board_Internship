@@ -1,0 +1,18 @@
+!SESSION 2023-08-16 11:55:26.097 -----------------------------------------------
+eclipse.buildId=Version 1.13.0
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-16 11:56:07.980
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-16 11:56:07.990
+!MESSAGE Log4j2 initialized with config file C:\Users\Public\Documents\Altium\STM32_Board_Internship\Software\MyBoard_Template\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-16 11:56:11.124
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-16 11:58:07.092
+!MESSAGE Indexed 'MyBoardTemplate' (43 sources, 106 headers) in 5.62 sec: 8,759 declarations; 55,137 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0031%)

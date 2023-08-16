@@ -1,0 +1,75 @@
+#include "../Inc/mpu6050.h"
+
+static uint8_t MPU6050_read_from_single_register(I2C_HandleTypeDef* i2c, uint8_t address){
+	uint8_t data;
+	HAL_I2C_Mem_Read(i2c, MPU6050_ADDR<<1, address, 1, &data, 1, 100);
+	return data;
+}
+
+static uint16_t MPU6050_read_from_double_register(I2C_HandleTypeDef* i2c, uint8_t high_address, uint8_t low_address){
+	uint16_t data;
+	uint8_t high_byte, low_byte;
+
+	high_byte = MPU6050_read_from_single_register(i2c, high_address);
+	low_byte = MPU6050_read_from_single_register(i2c, low_address);
+
+	data = ( high_byte << 8 ) | low_byte;
+	return data;
+}
+
+uint8_t MPU6050_Init(I2C_HandleTypeDef* i2c){
+	uint8_t check, data;
+	HAL_I2C_Mem_Read(&hi2c1, MPU6050_ADDR<<1, WHO_I_AM, 1, &check, 1, 100);
+
+	/* If value of the WHO_I_AM register (address 0x75) is equal to 0x68 then
+	 * the sensor is present and ready to be set up
+	 *
+	 * */
+	if(check != 0x68){
+		return 1;
+	}
+
+	// We need to wake up the sensor by writing the 0x00 value to the PWR_MGMT_1 (0x6B) register
+	data = 0x00;
+	HAL_I2C_Mem_Write(&hi2c1, MPU6050_ADDR<<1, PWR_MGMT_1, 1, &data, 1, 1000);
+
+	// Set DATA rate to 1KHz by writing 0x07 to the SMPRT_DIV(0x19) register
+	data = 0x07;
+	HAL_I2C_Mem_Write(&hi2c1, MPU6050_ADDR<<1, SMPRT_DIV, 1, &data, 1, 1000);
+
+	// Set accelerometer configuration in ACCEL_CONFIG register
+	// XA_ST=0, YA_ST=0, ZA_ST=0, FS_SEL=0 -> +- 2g
+	data = 0x00;
+	HAL_I2C_Mem_Write(&hi2c1, MPU6050_ADDR<<1, ACCEL_CONFIG, 1, &data, 1, 1000);
+
+	// Set gyroscope configuration in GYRO_CONFIG register
+	// XG_ST=0, YG_ST=0, ZG_ST=0, FS_SEL=0 -> +-250 deg/s
+	data = 0x00;
+	HAL_I2C_Mem_Write(&hi2c1, MPU6050_ADDR<<1, GYRO_CONFIG, 1, &data, 1, 1000);
+	return 0;
+}
+
+uint8_t MPU6050_ReadRawData(I2C_HandleTypeDef* i2c, MPU6050_DATA* data){
+	data->raw_accel[0] = (int16_t)MPU6050_read_from_double_register(i2c, ACCEL_XOUT_H, ACCEL_XOUT_L);
+	data->raw_accel[1] = (int16_t)MPU6050_read_from_double_register(i2c, ACCEL_YOUT_H, ACCEL_YOUT_L);
+	data->raw_accel[2] = (int16_t)MPU6050_read_from_double_register(i2c, ACCEL_ZOUT_H, ACCEL_ZOUT_L);
+
+	data->raw_gyro[0] = (int16_t)MPU6050_read_from_double_register(i2c, GYRO_XOUT_H, GYRO_XOUT_L);
+	data->raw_gyro[1] = (int16_t)MPU6050_read_from_double_register(i2c, GYRO_YOUT_H, GYRO_YOUT_L);
+	data->raw_gyro[2] = (int16_t)MPU6050_read_from_double_register(i2c, GYRO_ZOUT_H, GYRO_ZOUT_L);
+	return 0;
+}
+
+uint8_t MPU6050_ReadData(I2C_HandleTypeDef* i2c, MPU6050_DATA* data){
+	MPU6050_ReadRawData(i2c, data);
+
+	// +- 2g and 250 deg/s
+
+	for(uint8_t i = 0; i < 3; i++){
+		data->accel[i] = (float)data->raw_accel[i] / 16384.f;
+		data->gyro[i] = (float)data->raw_gyro[i] / 131.f;
+	}
+	return 0;
+}
+
+

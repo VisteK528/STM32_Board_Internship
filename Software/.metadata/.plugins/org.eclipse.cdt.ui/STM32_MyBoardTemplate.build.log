@@ -1,0 +1,10 @@
+15:47:05 **** Incremental Build of configuration Debug for project STM32_MyBoardTemplate ****
+make -j16 all 
+arm-none-eabi-size   STM32_MyBoardTemplate.elf 
+   text	   data	    bss	    dec	    hex	filename
+  62624	    732	  17100	  80456	  13a48	STM32_MyBoardTemplate.elf
+Finished building: default.size.stdout
+ 
+
+15:47:06 Build Finished. 0 errors, 0 warnings. (took 411ms)
+
