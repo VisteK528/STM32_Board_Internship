@@ -1,0 +1,29 @@
+13:15:31 **** Incremental Build of configuration Debug for project MyBoardFLASH ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/quadspi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/quadspi.d" -MT"Core/Src/quadspi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/quadspi.o"
+../Core/Src/quadspi.c: In function 'QSPI_Read':
+../Core/Src/quadspi.c:34:6: error: 'QSPI_Ctx' undeclared (first use in this function)
+   34 |   if(QSPI_Ctx.TransferRate == QSPI_STR_TRANSFER)
+      |      ^~~~~~~~
+../Core/Src/quadspi.c:34:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/quadspi.c:34:31: error: 'QSPI_STR_TRANSFER' undeclared (first use in this function)
+   34 |   if(QSPI_Ctx.TransferRate == QSPI_STR_TRANSFER)
+      |                               ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:32:10: fatal error: flash_qspi.h: No such file or directory
+   32 | #include "flash_qspi.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+../Core/Src/quadspi.c:36:12: warning: implicit declaration of function 'MT25TL01G_ReadSTR' [-Wimplicit-function-declaration]
+   36 |         if(MT25TL01G_ReadSTR(&hqspi, QSPI_Ctx.InterfaceMode, pData, ReadAddr, Size) != HAL_OK)
+      |            ^~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:49: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/quadspi.c:43:12: warning: implicit declaration of function 'MT25TL01G_ReadDTR' [-Wimplicit-function-declaration]
+   43 |         if(MT25TL01G_ReadDTR(&hqspi, QSPI_Ctx.InterfaceMode, pData, ReadAddr, Size) != HAL_OK)
+      |            ^~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:49: Core/Src/quadspi.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+13:15:32 Build Failed. 6 errors, 2 warnings. (took 503ms)
+

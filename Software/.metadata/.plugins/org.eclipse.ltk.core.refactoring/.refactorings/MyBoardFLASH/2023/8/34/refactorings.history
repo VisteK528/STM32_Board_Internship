@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;MyBoardFLASH/Core/Inc/flash_qspi&apos; to &apos;flash_qspi.h&apos;" description="Rename resource &apos;flash_qspi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/flash_qspi" name="flash_qspi.h" stamp="1692608180299" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;MyBoardFLASH/Core/Inc/mx25l512&apos; to &apos;mx25l512.h&apos;" description="Rename resource &apos;mx25l512&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/mx25l512" name="mx25l512.h" stamp="1692608234969" updateReferences="true"/>
+</session>

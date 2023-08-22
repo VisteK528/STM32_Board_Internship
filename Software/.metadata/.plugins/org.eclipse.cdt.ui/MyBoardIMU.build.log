@@ -1,16 +1,10 @@
-21:03:22 **** Incremental Build of configuration Debug for project MyBoardIMU ****
+13:43:49 **** Incremental Build of configuration Debug for project MyBoardIMU ****
 make -j16 all 
-arm-none-eabi-gcc -o "MyBoardIMU.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\Documents\Altium\STM32_Board_Internship\Software\MyBoardIMU\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MyBoardIMU.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: MyBoardIMU.elf
- 
 arm-none-eabi-size   MyBoardIMU.elf 
-arm-none-eabi-objdump -h -S  MyBoardIMU.elf  > "MyBoardIMU.list"
    text	   data	    bss	    dec	    hex	filename
   62640	    732	  17100	  80472	  13a58	MyBoardIMU.elf
 Finished building: default.size.stdout
  
-Finished building: MyBoardIMU.list
- 
 
-21:03:23 Build Finished. 0 errors, 0 warnings. (took 1s.30ms)
+13:43:50 Build Finished. 0 errors, 0 warnings. (took 464ms)
 

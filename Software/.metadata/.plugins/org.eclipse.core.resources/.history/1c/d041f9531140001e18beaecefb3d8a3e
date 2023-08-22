@@ -1,0 +1,13 @@
+/*
+ * mx25l512.h
+ *
+ *  Created on: Aug 21, 2023
+ *      Author: ppato
+ */
+
+#ifndef INC_MX25L512_H_
+#define INC_MX25L512_H_
+
+
+
+#endif /* INC_MX25L512_H_ */
