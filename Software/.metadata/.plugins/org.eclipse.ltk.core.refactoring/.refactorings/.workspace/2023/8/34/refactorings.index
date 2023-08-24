@@ -3,3 +3,6 @@
 1692611441684	Delete resource 'MyBoardFLASH/Core/Inc/mx25l512.h'
 1692615495044	Delete resource 'MyBoardFLASH/Core/Inc/flash_qspi.h'
 1692615499886	Delete resource 'MyBoardFLASH/Core/Src/flash_qspi.c'
+1692787507738	Delete resource 'MyBoardFLASH/Core/Inc/mx25lm51245g.h'
+1692787509658	Delete resource 'MyBoardFLASH/Core/Inc/mx25lm51245g_conf.h'
+1692787511367	Delete resource 'MyBoardFLASH/Core/Src/mx25lm51245g.c'
